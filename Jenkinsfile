@@ -1,4 +1,6 @@
-node {
-  echo "Hello"
-  echo "World"
+stage("Hello") {
+  node {  
+    echo "Hello"
+    echo "World"
+  }
 }
